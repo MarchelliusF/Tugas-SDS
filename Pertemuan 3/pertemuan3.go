@@ -20,17 +20,17 @@ func ChangeNamePerson(person *Person, newName string) {
 
 func init() {
 	mahasiswa := map[string]string{
-		"firstName": "Naufal",
-		"lastName":  "Hakim",
-		"hobby":     "Coding",
+		"firstName": "Marchellius",
+		"lastName":  "Fernando",
+		"hobby":     "Basket",
 	}
 
-	fmt.Println("=== Pertemuan 2 ===")
+	fmt.Println("=== Pertemuan 3 ===")
 	fmt.Println(mahasiswa)
 
-	person := NewPerson("Naufal")
+	person := NewPerson("Marchellius")
 	fmt.Println(person.SayHello())
 
-	ChangeNamePerson(person, "Hakim")
+	ChangeNamePerson(person, "Fernando")
 	fmt.Println(person.SayHello())
 }
